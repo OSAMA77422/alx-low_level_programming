@@ -3,16 +3,16 @@
 /**
  * main - Entry point
  *
- * Description: print alphabet in reverse.
+ * Description: print a-z in reverse.
  *
- * Return: 0 (success)
+ * Return: always  0 (success)
 */
 
 int main(void)
 {
 	char ch = 'z';
 
-	while ('z' >= 'a')
+	while ('ch' >= 'a')
 	{
 		putchar(ch);
 		ch--;
