@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main : Entry point
+ * main - Entry point
  *
  * Description: print _putchar using putchar proto type.
  *
