@@ -27,7 +27,7 @@ p = n * m;
  * put space if p is single number
  * place the first digit if it is two number
 */
-if (prod <= 9)
+if (p <= 9)
 	_putchar(' ');
 else
 	_putchar((p / 10) + 48);/*git the first digit*/
