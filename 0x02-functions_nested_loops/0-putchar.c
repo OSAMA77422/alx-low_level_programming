@@ -4,7 +4,7 @@
 /**
  * main : Entry point
  *
- * Description:
+ * Description: print _putchar using putchar proto type.
  *
  * Return: 0
 */
