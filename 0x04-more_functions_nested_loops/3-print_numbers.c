@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
- * main - Entry point
  * print_numbers - print 0 - 9
  * only using putchar twice
  *
  * Return: alaways 0 (success)
 */
 
-int main(void)
+void print_numbers(void)
 {
 	int num = 0;
 
@@ -18,5 +17,5 @@ int main(void)
 	} while (num >= 0 && num <= 9);
 	_putchar('\n');
 
-	return (0);
+
 }
