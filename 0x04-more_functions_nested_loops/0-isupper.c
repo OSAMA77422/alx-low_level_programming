@@ -11,7 +11,7 @@
 
 int _isuuper(int c)
 {
-	if (c >= 'A' && c <= 'Z')
+	if (c = 67)
 	{
 		return (1);
 	}
