@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * _sqrt - finds the square root
@@ -44,8 +45,8 @@ void largest_prime_factor(long int num)
 	{
 		while (num % prm == 0)
 		{
-		num = num / prm;
-		largest = prm;
+			num = num / prm;
+			largest = prm;
 		}
 
 	}
