@@ -2,8 +2,6 @@
 
 /**
  * more_numbers - print 0 - 14 ten times and you
- *
- * Return: always 0 (success)
 */
 
 void more_numbers(void)
@@ -12,16 +10,16 @@ void more_numbers(void)
 
 	for (row = 0; row <= 10; row++)
 	{
-		for (num = 0; num <= 14; num++)
-		{
-			count = num;
-		if (count > 9)
-			{
-			_putchar(1 + 48);
-			count = num % 10;
-			}
-		_putchar(0 + 48);
-		}
+	for (num = 0; num <= 14; num++)
+	{
+	count = num;
+	if (count > 9)
+	{
+	_putchar(1 + 48);
+	count = num % 10;
+	}
+	_putchar(0 + 48);
+	}
 	_putchar('\n');
 	}
 }
