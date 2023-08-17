@@ -18,5 +18,5 @@ int main(void)
 	} while (num >= 0 && num <= 9);
 	_putchar('\n');
 
-return (0);
+	return (0);
 }
