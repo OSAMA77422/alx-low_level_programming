@@ -1,11 +1,11 @@
 #include "main.h"
 int main(void)
 {
-int a[5]={1, 2, 3, 4, 5};
+char a[5]={a, b, c, d, e};
 int *ptr = &a[0];
 int c;
 for (c = 0; *a != '\0'; ++a)
-	printf("%d\n", *a);
+	printf("%c\n", *a);
 	c++;
 	return 0;
 }
