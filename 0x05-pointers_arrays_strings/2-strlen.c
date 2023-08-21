@@ -3,9 +3,10 @@
 /**
  * _strlen - return tje lengh of string.
  *
+ * Description: return
  * @s: input.
  *
- * Return : lengh of string.
+ * Return: lengh of string.
 */
 
 int _strlen(char *s)
