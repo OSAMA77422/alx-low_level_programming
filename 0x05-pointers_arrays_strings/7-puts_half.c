@@ -16,8 +16,8 @@ for (i = 0; str[i] != '\0'; i++)
 {
 	c++;
 }
-n = c / 2;
-for (q = n; str[q] != '\0'; q++)
+n = (c - 1) / 2;
+for (q = n + 1; str[q] != '\0'; q++)
 {
 _putchar(str[q]);
 }
