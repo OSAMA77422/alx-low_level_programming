@@ -20,7 +20,7 @@ for (x = 0; src[x] != '\0'; x++)
 {
 y++;
 }
-for (x = 0; x < y; x++)
+for (x = 0; x <= y; x++)
 {
 dest[i + x] = src[x];
 }
