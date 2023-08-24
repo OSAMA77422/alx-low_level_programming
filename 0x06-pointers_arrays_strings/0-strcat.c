@@ -22,7 +22,7 @@ y++;
 }
 for (x = 0; x < y; x++)
 {
-dest[dest + x] = src[x];
+dest[i + x] = src[x];
 }
 return (dest);
 }
