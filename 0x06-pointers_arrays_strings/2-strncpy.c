@@ -21,7 +21,7 @@ dest[i] = src[i];
 while (i < n)
 {
 dest[i] = '\n';
-i++
+i++;
 }
 return (dest);
 }
