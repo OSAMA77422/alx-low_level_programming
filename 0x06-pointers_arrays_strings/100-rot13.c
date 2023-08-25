@@ -14,6 +14,7 @@ char a[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 char b[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 char *ptr = c;
 int i;
+
 while (*c)
 {
 for (i = 0; a[i] != '\0' && b[i] != '\0'; i++)
