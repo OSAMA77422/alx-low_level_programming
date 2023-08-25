@@ -24,7 +24,7 @@ if (*c == a[i])
 }
 
 }
-c++
+c++;
 }
 return (ptr);
 }
