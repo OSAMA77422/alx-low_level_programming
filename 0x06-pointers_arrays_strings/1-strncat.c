@@ -3,22 +3,23 @@
 /**
  * *_strncat - str
  *
- * @dest: input
+ * @dest: dest
  * @src: input
- * @n: input
  *
  * Return: dest
 */
 
 char *_strncat(char *dest, char *src, int n)
 {
-int i;
-int x = strlen(dest);
+int x = 0, i;
 
-for (i = 0; i < n && *src != '\0'; i++)
+for (i = 0; dest[i] != '\0'; i++)
+{
+x++;
+}
+for (i = 0; i < n && src[i] != '\0'; i++)
 {
 dest[x + i] = src[i];
-src++;
 }
 dest[x + i] = '\0';
 return (dest);
