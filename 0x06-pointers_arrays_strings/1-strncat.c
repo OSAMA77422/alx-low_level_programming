@@ -18,6 +18,7 @@ int x = strlen(dest);
 for (i = 0; i < n && *src != '\0'; i++)
 {
 dest[x + i] = src[i];
+src++;
 }
 dest[x + i] = '\0';
 return (dest);
