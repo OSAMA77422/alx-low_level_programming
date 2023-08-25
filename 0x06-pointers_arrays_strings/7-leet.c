@@ -17,7 +17,7 @@ int i = 0;
 
 while (*c)
 {
-for (i = 0; i < sizeof[b] / sizeof[x]; i++)
+for (i = 0; i < sizeof[x] / sizeof[b]; i++)
 {
 if (*c == b[i] || *c == b[i] + 32)
 {
