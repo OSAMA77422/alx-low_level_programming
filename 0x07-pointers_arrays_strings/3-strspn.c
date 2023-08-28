@@ -20,5 +20,6 @@ for (i = 0; s[i] != '\0'; i++)
 	if (accept[j] == '\0')
 		return (i);
 	}
+	}
 	return (0);
 }
