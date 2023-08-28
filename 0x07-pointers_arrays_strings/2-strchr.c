@@ -18,8 +18,8 @@ for (i = 0; s[i] != '\0'; i++)
 {
 if (s[i] == c)
 {
-*p = &s[i];
-return (*p);
+p = &s[i];
+return (p);
 }
 }
 return ('\0');
