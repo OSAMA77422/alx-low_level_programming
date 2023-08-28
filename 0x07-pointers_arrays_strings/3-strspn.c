@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int _strspn - e
+ *  _strspn - e
  *
  * @s: input
  * @accept: input
