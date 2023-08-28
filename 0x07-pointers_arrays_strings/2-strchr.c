@@ -3,7 +3,7 @@
 /**
  * *_strchr - e
  *
- * @S: input
+ * @s: input
  * @c: input
  *
  * Return: s, null if its not found
