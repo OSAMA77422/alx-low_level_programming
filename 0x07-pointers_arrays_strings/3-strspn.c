@@ -15,7 +15,7 @@ while (*s != '\0')
 {
 if (*s == *accept)
 	return (s);
-s++
+s++;
 }
 	if (*s == *accept)
 		return (s);
