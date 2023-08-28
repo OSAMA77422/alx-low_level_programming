@@ -17,6 +17,6 @@ if (*s == *accept)
 	return (s);
 s++
 }
-	while (*s == *accept)
+	if (*s == *accept)
 		return (s);
 }
