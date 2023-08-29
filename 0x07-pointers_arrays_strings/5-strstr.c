@@ -17,7 +17,6 @@ for (i = 0; haystack[i] = needle[i]; i++)
 {
 j++;
 }
-return (j);
 for (i = j; haystack[i] != '\0'; i++)
 {
 return (haystack);
