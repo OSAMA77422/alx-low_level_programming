@@ -23,7 +23,6 @@ if (s[i] == accept[j])
 	p = &s[i];
 return (p);
 }
-return ('\0');
 }
 }
 return (0);
