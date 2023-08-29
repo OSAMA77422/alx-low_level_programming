@@ -21,6 +21,7 @@ if (s[i] == accept[j] || accept[j] == '\0')
 {
 return (s);
 }
+return ('\0');
 }
 }
 return (0);
