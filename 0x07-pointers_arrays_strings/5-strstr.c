@@ -20,7 +20,7 @@ j++;
 return (j);
 for (i = j; haystack[j] != '\0'; j++)
 {
-return (haystack[j]);
+return (haystack);
 }
 return ('\0');
 }
