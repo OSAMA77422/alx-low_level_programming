@@ -20,7 +20,7 @@ int i, x, j = 0;
 			j++;
 		}
 	}
-	for (i = j; haystack[i] != 0; i++)
+	for (i = j; haystack[i] != '\0'; i++)
 		{
 			return (haystack);
 		}	
