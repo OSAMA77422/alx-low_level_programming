@@ -24,5 +24,5 @@ int i, x, j = 0;
 		{
 			return (haystack);
 		}	
-return (NULL);
+return (0);
 }
