@@ -24,5 +24,5 @@ for (i = j; haystack[i] != '\0'; i++)
 return (haystack);
 
 }
-return ('\0');
+return (0);
 }
