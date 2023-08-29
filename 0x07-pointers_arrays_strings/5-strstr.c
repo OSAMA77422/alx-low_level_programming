@@ -11,21 +11,18 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-for (; *haystack != '\0'; haystack++)
-{
-	char *o = haystack;
-	char *t = needle;
-	while (*one = *two && *two != '\0')
+int i; x, j = 0;
+
+	for (i = 0; haystack != 0; i++)
 	{
-		one++;
-		two++;
+		for (x = 0; needle[x] = haystack[i]; x++)
+		{
+			j++;
+		}
 	}
-
-if (needle == '\0')
-{
-return (haystack);
-}
-}
-
+	for (i = j; haystack != 0; i++)
+		{
+			return (haystack);
+		}	
 return (NULL);
 }
