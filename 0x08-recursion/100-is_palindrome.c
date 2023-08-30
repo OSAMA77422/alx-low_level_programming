@@ -2,7 +2,9 @@
 
 /**
  * last_index - vfdvdf
+ *
  * @s: frv
+ *
  * Return: int
 */
 
@@ -20,22 +22,31 @@ return (n);
 
 /**
  * is_palindrome - vfdf
+ *
  * @s: vfdfd
- * Return: 0, 1*/
+ *
+ * Return: 0, 1
+*/
 
 int is_palindrome(char *s)
 {
-int end = last_index(s);
 
-return (check(s, 0, end - 1, end % 2));
+	int end = last_index(s);
+
+		return (check(s, 0, end - 1, end % 2));
 }
 
 /**
  * check - feds
+ *
  * @s: fv
+ *
  * @start: fdvd
+ *
  * @end: vefv
+ *
  * @mod: vffved
+ *
  * Return: 0, 1
 */
 
