@@ -13,7 +13,7 @@ int *move_past_star(char *s2)
 if (*s2 == '*')
 	return (move_past_star(s2 + 1));
 else
-	return (s);
+	return (s2);
 }
 
 /**
@@ -63,7 +63,7 @@ int ret = 0;
 		return (0);
 	if (*s2 == '*')
 	{
-		s2 = move_past_star(s2);
+		*s2 = *move_past_star(s2);
 		if(!*s2)
 			return(1);
 		if(*s1 == *s2)
