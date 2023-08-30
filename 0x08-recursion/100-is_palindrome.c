@@ -1,40 +1,14 @@
 #include "main.h"
 
 /**
- * is_palindrome - e
- * last_index - f
- * check - sdv
- * @s: vev
- * @s: Csdc
- * @s: vdf
- * @start: cdv
- * @end: dvfd
- * @mod: fvfv
+ * last_index - vfdvdf
+ * @s: frv
+ * Return: int
 */
 
 int is_palindrome(char *s);
 int check(char *s, int start, int end, int mod);
-int last_index(char *s);
-{
-	int n = 0;
-
-if (*s > '\0')
-	n += last_index(s + 1) + 1;
-
-return (n);
-}
-
-
-int is_palindrome(char *s)
-{
-	int end = last_index(s);
-
-	return (check(s, 0, end - 1, end % 2);
-}
-
-int is_palindrome(char *s);
-int check(char *s, int start, int end, int mod);
-int last_index(char *s);
+int last_index(char *s)
 {
 int n = 0;
 
@@ -44,12 +18,26 @@ n += last_index(s + 1) + 1;
 return (n);
 }
 
+/**
+ * is_palindrome - vfdf
+ * @s: vfdfd
+ * Return: 0, 1*/
+
 int is_palindrome(char *s)
 {
 int end = last_index(s);
 
 return (check(s, 0, end - 1, end % 2));
 }
+
+/**
+ * check - feds
+ * @s: fv
+ * @start: fdvd
+ * @end: vefv
+ * @mod: vffved
+ * Return: 0, 1
+*/
 
 int check(char *s, int start, int end, int mod)
 {
@@ -59,3 +47,4 @@ int check(char *s, int start, int end, int mod)
 		return (0);
 	else
 		return (check(s, start + 1, end - 1, mod);
+}
