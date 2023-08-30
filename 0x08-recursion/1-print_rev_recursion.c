@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strlen_recursion - vdfv
+ * _print_rev_recursion - vdfv
  *
  * @s: vdf
  * Return: vfv
