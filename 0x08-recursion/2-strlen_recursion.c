@@ -1,11 +1,11 @@
 #include "main.h"
 
-/*
- * _strlen_recursion - vfdvd
+/**
+ * _strlen_recursion - vfbd
  *
- * @s: dvdf
+ * @s: fvdvd
  *
- * Return: fvfs
+ * Return: 0
 */
 
 int _strlen_recursion(char *s)
