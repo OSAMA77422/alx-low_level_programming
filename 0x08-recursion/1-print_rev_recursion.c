@@ -9,14 +9,9 @@
 
 void _print_rev_recursion(char *s)
 {
-int x, y = 0;
-
-for (x = 0; s[x] != '\0'; x++)
+if (*s > '\0')
 {
-y++;
-}
-for (x = y - 1; x >= 0; x--)
-{
-putchar (*s);
+	_print_rev_recursion(s + 1);
+_putchar (*s);
 }
 }
