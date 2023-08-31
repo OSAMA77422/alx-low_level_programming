@@ -4,6 +4,7 @@
  * _sqrt_recursion - vfd
  *
  * @n: vef
+ * @val: vfd
  * Return: vs
 */
 
@@ -28,6 +29,6 @@ if (val * val == n)
 	return (val);
 else if (val * val < n)
 	return (square(n, val + 1));
-else 
+else
 	return (-1);
 }
