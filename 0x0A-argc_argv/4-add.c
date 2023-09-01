@@ -5,7 +5,7 @@
  * main - vdf
  * @argc: vf
  * @argv: vvf
- * Return :Vwd
+ * Return:Vwd
 */
 
 int main(int argc, char *argv[])
