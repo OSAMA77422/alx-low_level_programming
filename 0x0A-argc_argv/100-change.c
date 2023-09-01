@@ -4,7 +4,7 @@
 /**
  * main - prints
  * @argc: vsv
- * @argv: dffvd 
+ * @argv: dffvd
  * Return: vsd
 */
 
