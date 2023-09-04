@@ -9,6 +9,7 @@
 char *_strdup(char *str)
 {
 	int i, count = 0;
+	char *c;
 if (str == NULL)
 	return (NULL);
 
@@ -16,7 +17,7 @@ if (str == NULL)
 	{
 		count++;
 	}
-char *c = malloc(count);
+		c = malloc(count);
 
 if (c == 0)
 	return (NULL);
