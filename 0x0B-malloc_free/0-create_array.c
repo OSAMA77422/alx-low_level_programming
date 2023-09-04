@@ -19,12 +19,13 @@ int i;
 char *arr;
 
 arr = malloc(sizeof(char) * size);
+
 if (arr == NULL)
 	return (NULL);
-else
-	for (i = 0; i < size; i++)
-{
-arr[i] = c;
-}
+
+for (i = 0; i < size; i++)
+
+	arr[i] = c;
+
 
 }
