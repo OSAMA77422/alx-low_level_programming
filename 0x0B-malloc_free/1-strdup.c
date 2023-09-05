@@ -24,7 +24,7 @@ if (c == NULL)
 {
 	return (NULL);
 }
-for (i = 0; c[i] != '\0'; i++)
+for (i = 0; str[i] != '\0'; i++)
 {
 	c[i] = str[i];
 }
