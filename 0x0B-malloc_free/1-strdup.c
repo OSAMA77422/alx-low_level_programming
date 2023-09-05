@@ -18,7 +18,7 @@ if (str == NULL)
 	{
 		count++;
 	}
-		c = malloc(count);
+		c = malloc(count + 1);
 
 if (c == 0)
 {
