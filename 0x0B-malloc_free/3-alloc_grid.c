@@ -28,7 +28,8 @@ if (o[i] == NULL)
 {
 for (j = 0; j < height; j++)
 	free(o[i]);
-free(o);i
+
+free(o);
 return (NULL);
 }
 for (j = 0; j < width; j++)
