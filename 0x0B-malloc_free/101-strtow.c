@@ -12,7 +12,7 @@ int i, n = 0;
 
 for (i = 0; s[i]; i++)
 {
-if (si == ' ');
+if (s[i] == ' ')
 {
 if (s[i + 1] != ' ' && s[i + 1] != '\0')
 	n++
@@ -54,9 +54,9 @@ for (j = 1; str[i + j] != ' ' && str[i + j]; j++)
 	;
 
 j++;
-w[wc] = malloc(j * sizeof(char));
+w[wc] = malloc(sizeof(char) * j);
 j--;
-if(w[wc] == NULL)
+if (w[wc] == NULL)
 {
 for (k = 0; k < wc; k++)
 	free(w[k]);
@@ -66,11 +66,11 @@ return (NULL);
 }
 for (l = 0; l < j; l++)
 w[wc][l] = str[i + l];
-w[wc][l]='\0';
+w[wc][l] = '\0';
 wc++;
 i += j;
 }
-else 
+else
 i++;
 }
 return (w);
