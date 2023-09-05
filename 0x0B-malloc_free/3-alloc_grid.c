@@ -17,14 +17,14 @@ if (height <= 0 || width <= 0)
 	return (NULL);
 }
 o = malloc(sizeof(int *) * height);
-if (o == 0)
+if (o == NULL)
 {
 return (NULL);
 }
 for (i = 0; i < height; i++)
 {
 o[i] = malloc(sizeof(int *) * width);
-if (o[i] == 0)
+if (o[i] == NULL)
 {
 free(o);
 for (j = 0; j < height; j++)
