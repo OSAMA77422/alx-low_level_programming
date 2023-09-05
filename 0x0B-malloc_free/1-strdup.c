@@ -20,7 +20,7 @@ if (str == NULL)
 	}
 		c = malloc(sizeof(char) * count + 1);
 
-if (c == 0)
+if (c == NULL)
 {
 	return (NULL);
 }
