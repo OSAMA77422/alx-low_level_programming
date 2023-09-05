@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * void free_grid - vddv
+ * free_grid - vddv
  * @grid: vdv
  * @height: vd
  * Return: vfd
