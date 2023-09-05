@@ -23,27 +23,24 @@ else if (i == 0)
 n++;
 return (n);
 }
-
 /**
  * **strtow - vdf
  * @str: vdf
  * Return: dfv
 */
-
 char **strtow(char *str)
 {
 int i, j, k, l, n = 0, wc = 0;
 char **w;
 
 if (str == NULL || *str == '\0')
-{
 	return (NULL);
-}
+n = wrdcnt(str);
+if (n == 1)
+	return (NULL);
 w = malloc(sizeof(char *) * n);
 if (w == NULL)
-{
 return (NULL);
-}
 w[n - 1] = NULL;
 i = 0;
 while (str[i])
@@ -52,7 +49,6 @@ if (str[i] != ' ' && (i == 0 || str[i - 1] == ' '))
 {
 for (j = 1; str[i + j] != ' ' && str[i + j]; j++)
 	;
-
 j++;
 w[wc] = malloc(sizeof(char) * j);
 j--;
