@@ -13,7 +13,7 @@ for (; s[size] != '\0'; size++)
 {
 ;
 }
-return (size):
+return (size);
 }
 
 /**
@@ -36,7 +36,7 @@ for (i = 0; i < ac; i++, nc++)
 nc += _strlen(av[i]);
 }
 s = malloc(sizeof(char *) * nc + 1);
-if (s = NULL)
+if (s == NULL)
 {
 return (NULL);
 }
