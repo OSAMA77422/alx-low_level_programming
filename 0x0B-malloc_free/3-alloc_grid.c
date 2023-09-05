@@ -23,7 +23,7 @@ return (NULL);
 }
 for (i = 0; i < height; i++)
 {
-o[i] = malloc(sizeof(int **) * width);
+o[i] = malloc(sizeof(int) * width);
 if (o[i] == NULL)
 {
 while (i--)
