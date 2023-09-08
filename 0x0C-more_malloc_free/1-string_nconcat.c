@@ -26,7 +26,7 @@ while (s2[k])
 
 if (n >= k)
 	l = i + k;
-else 
+else
 	l = i + n;
 
 str = malloc(sizeof(char) * l + 1);
