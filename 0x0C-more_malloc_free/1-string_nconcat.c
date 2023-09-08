@@ -33,7 +33,7 @@ str = malloc(sizeof(char) * l + 1);
 if (str == NULL)
 	return (NULL);
 
-k = 0
+k = 0;
 	while (j < l)
 	{
 	if (j <= i)
@@ -44,7 +44,7 @@ k = 0
 	str[j] = s2[k];
 	k++;
 	}
-	j++
+	j++;
 	}
 str[j] = '\0';
 return (str);
