@@ -31,7 +31,7 @@ str = malloc(s11 + n + 1);
 	{
 		return (NULL);
 	}
-for (i = 0; s1 != '\0'; i++)
+for (i = 0; s1[i] != '\0'; i++)
 {
 str[i] == s1[i];
 }
