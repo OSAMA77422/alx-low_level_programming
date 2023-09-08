@@ -29,7 +29,7 @@ return (p);
 }
 if (new_size > old_size)
 {
-p = malloc(new_size)
+p = malloc(new_size);
 	if (p == NULL)
 		return (NULL);
 for (i = 0; i < old_size && i < new_size; i++)
