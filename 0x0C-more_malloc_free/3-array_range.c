@@ -18,7 +18,7 @@ if (min > mix)
 }
 l = max - min + 1;
 ptr = (sizeof(int) * l);
-if (!ptr)
+if (ptr == '\0')
 {
 	return (NULL);
 }
