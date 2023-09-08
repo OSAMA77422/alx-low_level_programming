@@ -10,19 +10,21 @@
 int *array_range(int min, int max)
 {
 int l, i;
-int *ptr;
+int *p;
 
-if (min > mix)
+if (min > max)
 {
 	return (NULL);
 }
-l = max - min + 1;
-ptr = (sizeof(int) * l);
-if (ptr == '\0')
+l = (max - min) + 1;
+p = malloc(sizeof(int) * l);
+if (p == NULL)
 {
 	return (NULL);
 }
-for (i = 0; i < len; i++)
-	ptr[i] = min++;
-	return (ptr);
+for (i = 0; i < l; i++)
+{
+	p [i] = min++;
+}
+	return (p);
 }
