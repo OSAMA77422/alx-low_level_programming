@@ -26,7 +26,7 @@ for (s22 = 0; s2[s22] != '\0'; s22++)
 {
 ;
 }
-str = malloc(s11 + n + 1)
+str = malloc(s11 + n + 1);
 	if (str == 0)
 	{
 		return (NULL);
