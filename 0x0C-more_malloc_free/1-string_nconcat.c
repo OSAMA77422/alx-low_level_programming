@@ -35,6 +35,6 @@ for (j = 0; s2[j] != '\0'; j++)
 {
 str[s11 + j] = s2[j];
 }
-str[i] = '\0';
+str[s11 + j] = '\0';
 return (str);
 }
