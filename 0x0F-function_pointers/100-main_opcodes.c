@@ -1,4 +1,4 @@
-#include "fucnction_pointers.h"
+#include "function_pointers.h"
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -14,7 +14,7 @@ int main(int argc, char **argv)
 char *p = (char *)main;
 int b;
 
-if (argv != 2)
+if (argc != 2)
 {
 printf("Error\n"), exit(1);
 }
