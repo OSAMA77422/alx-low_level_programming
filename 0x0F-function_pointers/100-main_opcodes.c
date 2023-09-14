@@ -21,9 +21,9 @@ printf("Error\n"), exit(1);
 b = atoi(argv[1]);
 if (b < 0)
 {
-printf("Erro\n"), exit(2);
+printf("Error\n"), exit(2);
 }
-while (--b)
+while (b--)
 {
 printf("%02hhx%s", *p++, b ? " " : "\n");
 }
