@@ -23,8 +23,10 @@ if (!op_func)
 {
 	printf("Error\n"), exit(99);
 }
-if (!b && !a && (argv[2][0] == '/' || argv[2][0] == '%'))
+if (!b && (argv[2][0] == '/' || argv[2][0] == '%'))
+{
 	printf("Error\n"), exit(100);
+}
 
 printf("%d\n", op_func(a, b));
 return (0);
