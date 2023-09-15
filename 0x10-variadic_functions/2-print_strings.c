@@ -23,7 +23,7 @@ va_start(h, n);
 
 while (i--)
 {
-printf("%s%s", (c = va_arg(h, char*)) ? c : "(nil)", i ? (separator ? separator : "") : '\n');
+printf("%s%s", (c = va_arg(h, char *)) ? c : "(nil)", i ? (separator ? separator : "") : "\n");
 }
 va_end(h);
 }
