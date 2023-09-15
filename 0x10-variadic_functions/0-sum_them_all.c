@@ -22,5 +22,5 @@ va_start(g, n);
 		s += va_arg(g, int);
 	}
 va_end(g);
-return(s);
+return (s);
 }
