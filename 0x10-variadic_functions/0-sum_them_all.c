@@ -13,7 +13,7 @@ unsigned int i, s = 0;
 
 va_list g;
 
-if (!n)
+if (n == 0)
 	return (0);
 
 va_start(g, n);
