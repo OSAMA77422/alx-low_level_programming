@@ -5,7 +5,7 @@
  * transform one number to another
  *
  * @n: first number
- * @m: second number
+ * @m: second number.
  *
  * Return: number of bits to flip to convert numbers
  */

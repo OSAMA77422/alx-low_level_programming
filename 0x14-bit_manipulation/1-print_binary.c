@@ -4,7 +4,7 @@
  * print_binary - prints a number as binary string
  * @n: the number to print
  *
- * Return: void
+ * Return: void.
  */
 void print_binary(unsigned long int n)
 {
